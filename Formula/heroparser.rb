@@ -7,17 +7,17 @@ class Heroparser < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/KoalaFacts/HeroParser/releases/download/v2.5.1/heroparser-v2.5.1-osx-x64.tar.gz"
-      sha256 "C481765EB4E98510000F78E63201029A8475C81E1E792E5D9FD3FA91375C53B6"
+      sha256 "c481765eb4e98510000f78e63201029a8475c81e1e792e5d9fd3fa91375c53b6"
     elsif Hardware::CPU.arm?
       url "https://github.com/KoalaFacts/HeroParser/releases/download/v2.5.1/heroparser-v2.5.1-osx-arm64.tar.gz"
-      sha256 "DA1C4CAC04458E0DAA5B9074FE3919DC3998F14B7D3CE92717487EDABDA06F3F"
+      sha256 "da1c4cac04458e0daa5b9074fe3919dc3998f14b7d3ce92717487edabda06f3f"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/KoalaFacts/HeroParser/releases/download/v2.5.1/heroparser-v2.5.1-linux-x64.tar.gz"
-      sha256 "C9FE82B1894268E8DCA7BF73476CF1C58006A14547DAEF28E2D6298C8306BC94"
+      sha256 "c9fe82b1894268e8dca7bf73476cf1c58006a14547daef28e2d6298c8306bc94"
     end
   end
 
