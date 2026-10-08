@@ -1,23 +1,23 @@
 class Heroparser < Formula
   desc "High-performance, AI-native CLI tool for tabular data processing"
   homepage "https://github.com/KoalaFacts/HeroParser"
-  version "2.8.0"
+  version "2.8.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/KoalaFacts/HeroParser/releases/download/v2.8.0/heroparser-v2.8.0-osx-x64.tar.gz"
-      sha256 "59089ca5c6dd6c66681c022fabc6fdd89c71a79508180def94f63b1cf768a0f6"
+      url "https://github.com/KoalaFacts/HeroParser/releases/download/v2.8.1/heroparser-v2.8.1-osx-x64.tar.gz"
+      sha256 "8710140c924430de4dc71e832f7ef8cda7959ed52a99bf3958c1ff77fd3b1fd3"
     elsif Hardware::CPU.arm?
-      url "https://github.com/KoalaFacts/HeroParser/releases/download/v2.8.0/heroparser-v2.8.0-osx-arm64.tar.gz"
-      sha256 "0fe48da00f330d2610b35ceef40d39d5c2dce432884091f19b6ea5892bb0a702"
+      url "https://github.com/KoalaFacts/HeroParser/releases/download/v2.8.1/heroparser-v2.8.1-osx-arm64.tar.gz"
+      sha256 "87fb84c8cac7708c14efaa97832c8cfb1dc492716dfa37638a784aa64201defa"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/KoalaFacts/HeroParser/releases/download/v2.8.0/heroparser-v2.8.0-linux-x64.tar.gz"
-      sha256 "9552466df3d1d201da0180aa865c04d57ec14f193eb624ad70ab92926482d9c5"
+      url "https://github.com/KoalaFacts/HeroParser/releases/download/v2.8.1/heroparser-v2.8.1-linux-x64.tar.gz"
+      sha256 "e4f851824456172bcc6e6b1a7586f52284e6cfd259dd8bef1ee9e0fd835e91e0"
     end
   end
 
